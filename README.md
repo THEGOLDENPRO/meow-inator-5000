@@ -1,7 +1,9 @@
 <div align="center">
 
-  # Python Library Template
+  # meow-imator-5000
 
-  <sub>Template I use for creating python libraries.</sub>
+  <sub>🐱 My awfully named lib that contains Fast API routers and middleware I use throughout all my web servers.</sub>
+
+  <img width="500px" src="./assets/dr-doofenshmirtz.jpg">
 
 </div>
