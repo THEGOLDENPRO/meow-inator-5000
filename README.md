@@ -1,6 +1,6 @@
 <div align="center">
 
-  # 🐱 meow-imator-5000
+  # 🐱 meow-inator-5000
 
   <sub>My awfully named lib that contains Fast API routers and middleware I use throughout all my web servers.</sub>
 
