@@ -1,0 +1,48 @@
+[project]
+name = "meow-imator-5000"
+description = "🐱 My awfully named lib that contains Fast API routers and middleware I use throughout all my web servers."
+authors = [
+    {name = "Goldy", email = "goldy@devgoldy.xyz"}
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = []
+classifiers = [
+	'Operating System :: Microsoft :: Windows :: Windows 11',
+    'Operating System :: Microsoft :: Windows :: Windows 10',
+    'Operating System :: POSIX :: Linux',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+	'Programming Language :: Python :: 3.11'
+]
+dependencies = [
+    "requests",
+    "importlib-metadata; python_version<'3.8'",
+
+    "fastapi"
+]
+
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "build"
+]
+
+[project.urls]
+GitHub = "https://github.com/THEGOLDENPRO/meow-imator-5000"
+BugTracker = "https://github.com/THEGOLDENPRO/meow-imator-5000/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "meow_imator_5000.__version__" }
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["meow_imator_5000*"]
