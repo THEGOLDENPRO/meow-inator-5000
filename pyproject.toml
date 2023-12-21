@@ -1,5 +1,5 @@
 [project]
-name = "meow-imator-5000"
+name = "meow-inator-5000"
 description = "🐱 My awfully named lib that contains Fast API routers and middleware I use throughout all my web servers."
 authors = [
     {name = "Goldy", email = "goldy@devgoldy.xyz"}
@@ -34,15 +34,15 @@ dev = [
 ]
 
 [project.urls]
-GitHub = "https://github.com/THEGOLDENPRO/meow-imator-5000"
-BugTracker = "https://github.com/THEGOLDENPRO/meow-imator-5000/issues"
+GitHub = "https://github.com/THEGOLDENPRO/meow-inator-5000"
+BugTracker = "https://github.com/THEGOLDENPRO/meow-inator-5000/issues"
 
 [tool.setuptools.dynamic]
-version = { attr = "meow_imator_5000.__version__" }
+version = { attr = "meow_inator_5000.__version__" }
 
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["meow_imator_5000*"]
+include = ["meow_inator_5000*"]
