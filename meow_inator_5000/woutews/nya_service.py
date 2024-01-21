@@ -7,5 +7,5 @@ router = APIRouter(
 @router.get("/nya")
 async def status(request: Request):
     return {
-        "version": request.app.version
+        "version": request.app.version.lower().replace("v", "")
     }
